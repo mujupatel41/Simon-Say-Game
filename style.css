@@ -3,10 +3,10 @@ body{
 }
 
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 20%;
-    border: 10px solid black;
+    border: 7px solid black;
     margin: 2rem;
 }
 
@@ -37,4 +37,9 @@ body{
 
 .userflash{
     background-color: green;
+}
+
+.info{
+    position: relative;
+    bottom: 1px;
 }
