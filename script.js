@@ -53,8 +53,12 @@ function checkSeq(idx){
 
         }
     } else{
-        h2.innerText = `Game Over! Press Any Key To Start`
+        h2.innerHTML = `Game Over! Your Score Was <b>${level}</b> <br> Press Any Key To Start`
         reset();
+        document.querySelector("body").style.backgroundColor = "red";
+        setTimeout(function(){
+            document.querySelector("body").style.backgroundColor = "white";
+        },150)
     }
 }
 
